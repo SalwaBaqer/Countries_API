@@ -1,0 +1,177 @@
+{
+  "info": {
+    "_postman_id": "60ad02cb-0c0c-4dc9-83f9-dc3f4042d6bf",
+    "name": "Tourism API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Get all courses",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:8000/courses",
+          "host": ["localhost"],
+          "port": "8000",
+          "path": ["courses"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get all teachers",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:8000/teachers",
+          "host": ["localhost"],
+          "port": "8000",
+          "path": ["teachers"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get all students",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:8000/students",
+          "host": ["localhost"],
+          "port": "8000",
+          "path": ["students"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Create a new courses",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "localhost:8000/courses",
+          "host": ["localhost"],
+          "port": "8000",
+          "path": ["courses"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Create a new teacher",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "localhost:8000/teachers",
+          "host": ["localhost"],
+          "port": "8000",
+          "path": ["teachers"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Create a new students",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "localhost:8000/students",
+          "host": ["localhost"],
+          "port": "8000",
+          "path": ["students"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Delete a courses by id",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "localhost:8000/courses/1",
+          "host": ["localhost"],
+          "port": "8000",
+          "path": ["courses", "1"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Delete a teacher by id",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "localhost:8000/teachers/1",
+          "host": ["localhost"],
+          "port": "8000",
+          "path": ["teachers", "1"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Delete a student by id",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "localhost:8000/students/1",
+          "host": ["localhost"],
+          "port": "8000",
+          "path": ["students", "1"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Update courses",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "localhost:8000/courses/1",
+          "host": ["localhost"],
+          "port": "8000",
+          "path": ["courses", "1"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Update teachers",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "localhost:8000/teachers/1",
+          "host": ["localhost"],
+          "port": "8000",
+          "path": ["teachers", "1"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Update students",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "url": {
+          "raw": "localhost:8000/students/1",
+          "host": ["localhost"],
+          "port": "8000",
+          "path": ["students", "1"]
+        }
+      },
+      "response": []
+    }
+  ]
+}
